@@ -1,0 +1,412 @@
+/**********************************
+GENERAL
+***********************************/
+menu, ol, ul {
+  padding-left: 0px;
+
+}
+body {
+  font-family: 'Arimo', sans-serif;
+  max-width: 100%;
+ 
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width:100%;
+  
+}
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/************** image hover on larger devices*/
+
+.image {
+    position:relative;
+    
+}
+
+.image img {
+    width:100%;
+    vertical-align:top;
+}
+
+/******************* Image hover on larger devices*************/
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float:right;
+  text-align:center;
+  margin: -10px 0 0 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Arimo', sans-serif;
+  margin: 15px 0px 5px 0px;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+h3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  text-align: center;
+  color:#0A2252;
+}
+
+h4 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: .75em;
+  color:#000;
+  text-align: center;
+}
+
+/**********************************
+Top landing section
+***********************************/
+
+.top-container{
+  background:#C41E3A;
+  display: table;
+  color:#fff;
+}
+
+.containerleft {
+
+  margin:0 10px;
+  text-align:center;
+}
+
+.containerright {
+  margin:10px;
+}
+
+
+.top-container img{
+  width:75%;
+  display:block;
+  margin:auto;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 10px;
+  padding: 0;
+
+}
+
+nav li {
+  width: 100%;
+  margin: 5px 0px;
+  background-color: #808080;
+  border-radius: 10px;
+}
+
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  background-color: #C41E3A;
+  color: #fff;
+  padding-bottom:10px;
+}
+
+
+
+/* Footer links */
+  a.footersmall {
+    color:white;
+    font-size: 1.4em;
+    padding-bottom: 4px;
+  }
+
+  .footerlarge{
+    visibility: hidden;
+  }
+
+  .footer-distributed p.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+  }
+
+
+  .footer-distributed  a{
+    display: inline-block;
+
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-left: 3px;
+  }
+
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+
+
+
+/**********************************
+gallery
+***********************************/
+
+#gallery, #galleryskill{
+  margin: 0;
+ 
+  /*padding-top: 50px;
+  background-color: #fff;
+
+*/
+  list-style: none;
+}
+
+#gallery li, #galleryskill li {
+  /*float: left;*/
+  width: 95%;
+  margin: 2.5%;
+  background-image: url("../img/graybg.png");
+  color: #fff;
+}
+
+#gallery li a p, #galleryskill li a p, #gallery li p, #galleryskill li p {
+  margin: 0;
+  padding: 3%;
+  font-size: 0.75em;
+  color: #000;
+  text-align:center;
+}
+
+
+
+/**********************************
+CONTACT
+***********************************/
+
+#contactus{
+  margin: 0;
+  padding: 0px 0px 5px 0px;
+  list-style: none;
+  background-color: #C41E3A;
+}
+
+#contact-info {
+  list-style: none;
+  padding: 5px;
+  font-size: 1.4em;
+  color: #fff;
+  text-align:center;
+}
+
+#contactus p {
+  list-style: none;
+  padding: 0px 5px 5px 5px;
+  font-size: 1em;
+  color: #fff;
+  text-align:center;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+#contactus a{
+  display:block;
+  color:#fff;
+  text-align:center;
+}
+
+#contactus a[href^="tel:"]:before {
+  content: "\260E";
+  display: inline-block;
+  margin-right: 0.5em;
+  text-align:center;
+  color:#fff;
+}
+
+#contactus a[href^="mailto:"]:before {
+  content: "\2709";
+  display: inline-block;
+  margin-right: 0.5em;
+  text-align:center;
+  color:#fff;
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+.contact-info li.googlehangouts a {
+  background-image: url('../img/Hangouts_Icon.png');
+}
+
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #C41E3A;
+  border-color: #0A2252;
+}
+
+/* nav background on mobile */
+nav {
+  background: #C41E3A;
+}
+
+/* logo text */
+h1 {
+  color: #fff;
+}
+
+h2{
+  text-align: center;
+  color: #000;
+  font-size: 1.75em;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav link*/ 
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+ color: #000;
+}
+
+
+nav a:focus {
+  color: #000;
+}
+
+
+nav a, nav a:active {
+  color: #ddd;
+}
+
+
+#wrapper, #wrapperskill {
+  display: inline-block;
+}
+
+#contactus{
+  display: block;
+}
+
+
+/*************************
+Clearfix
+*************************/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
