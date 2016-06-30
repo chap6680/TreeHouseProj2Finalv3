@@ -156,25 +156,35 @@ FOOTER
 
 footer {
   font-size: 0.75em;
-  text-align: center;
+  display:inline-block;
+  text-align: left;
+  width:100%;
+  
   clear: both;
   background-color: #C41E3A;
   color: #fff;
-  padding-bottom:10px;
+  padding:10px;
 }
 
 
 
 /* Footer links */
   a.footersmall {
+
     color:white;
     font-size: 1.4em;
-    padding-bottom: 4px;
+ 
   }
 
-  .footerlarge{
+  a.footersmall.footerrightsmall{
+    float:right;    
+    padding-right: 30px;
+}
+
+    a.footersmall.footerrightlarge{
     visibility: hidden;
   }
+
 
   .footer-distributed p.footer-links a{
     display:inline-block;
